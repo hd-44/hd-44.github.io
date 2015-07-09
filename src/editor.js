@@ -73,28 +73,13 @@ function openvdtube() {
 function opendailymotion() {
 	var input=sl("editor").value;
 	var encode = encodeURI(input); 
-	MeinFenster = window.open("http://www.dailymotion.com/ma/relevance/search/+encode/1");
+	MeinFenster = window.open("http://www.dailymotion.com/search/"+encode);
  }
 function openface() {
 	var input=sl("editor").value;
 	var encode = encodeURI(input);
 	MeinFenster = window.open("http://www.facebook.com/search/results.php?q="+encode);
   }
-function openppface() {
-	var input=sl("editor").value;
-	var encode = encodeURI(input); 
-	MeinFenster = window.open("https://www.facebook.com/search/str/+encode+/keywords_pages/);
- }
-function openpface() {
-	var input=sl("editor").value;
-	var encode = encodeURI(input); 
-	MeinFenster = window.open("http://www.facebook.com/search/results.php?type=pages&q="+encode);
- }
-function opengface() {
-	var input=sl("editor").value;
-	var encode = encodeURI(input); 
-	MeinFenster = window.open("http://www.facebook.com/search/results.php?type=groups&q="+encode);
- }
 function opentwitter() {
 	var input=sl("editor").value;
 	var encode = encodeURI(input); 
